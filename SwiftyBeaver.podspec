@@ -23,4 +23,6 @@ Great for development & release due to its support for many logging destinations
   s.osx.deployment_target = "10.10"
   s.source       = { :git => "https://github.com/SwiftyBeaver/SwiftyBeaver.git", :tag => "1.7.0" }
   s.source_files  = "Sources"
+  s.module_map = ""
+  s.prefix_header_file = false
 end
